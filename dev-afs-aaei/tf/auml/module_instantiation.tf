@@ -1,11 +1,11 @@
 module "ant" {
-    source = "../modules/ant"
+    source = "./modules/ant"
     
 }
 
 #### We are going to create a s3 bucket ######
 resource "aws_s3_bucket" "an_ai_bucket" {
-    bucket = "an_ai"
+bucket = "an_ai"
     tags = {
       "buc" = "value"
       "support_group" = ""
