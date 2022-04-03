@@ -1,4 +1,4 @@
 module "ant" {
-    source = "./modules/ant"
+    source = "../modules/ant"
     
 }
