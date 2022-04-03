@@ -4,7 +4,7 @@ module "ant" {
 }
 
 #### We are going to create a s3 bucket ######
-resource "aws_s3_bucket" "an_ai_bucket" {
+resource "awdsfas_s3dfs_bucket" "an_ai_bfucket" {
 bucket = "an_ai"
     tags = {
       "buc" = "value"
